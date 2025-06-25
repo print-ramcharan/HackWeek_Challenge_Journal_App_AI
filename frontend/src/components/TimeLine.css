@@ -1,0 +1,49 @@
+.timeline {
+    margin-top: 1.5rem;
+  }
+  
+  .timeline h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #5b21b6; /* Indigo-700 */
+    margin-bottom: 1rem;
+  }
+  
+  .timeline .empty {
+    color: #6b7280; /* Gray-500 */
+    font-style: italic;
+  }
+  
+  .timeline-entry {
+    background-color: #f5f3ff; /* Indigo-50 */
+    border: 1px solid #ddd6fe; /* Indigo-200 */
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+  }
+  
+  .timeline-entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    color: #4b5563; /* Gray-600 */
+  }
+  
+  .mood-tag {
+    background-color: #ede9fe; /* Purple-100 */
+    color: #6b21a8;            /* Purple-800 */
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-weight: 500;
+    font-size: 0.85rem;
+  }
+  
+  .timeline-entry-content {
+    white-space: pre-wrap;
+    color: #1f2937; /* Gray-800 */
+    font-size: 1rem;
+  }
+  

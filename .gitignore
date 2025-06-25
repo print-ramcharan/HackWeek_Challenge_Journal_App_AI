@@ -1,0 +1,8 @@
+# .gitignore (placed in journal-ai/)
+**/node_modules/
+**/dist/
+**/.env
+**/.DS_Store
+**/venv/
+**/__pycache__/
+*.log
